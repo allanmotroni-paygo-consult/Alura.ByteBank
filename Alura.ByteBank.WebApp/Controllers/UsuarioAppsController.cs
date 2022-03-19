@@ -27,7 +27,7 @@ namespace Alura.ByteBank.WebApp.Controllers
         // GET: UsuarioApps/Details/5
         public ActionResult Details(int id)
         {
-            if (id == null)
+            if (id == 0)
             {
                 return NotFound();
             }
@@ -62,7 +62,7 @@ namespace Alura.ByteBank.WebApp.Controllers
         // GET: UsuarioApps/Edit/5
         public ActionResult Edit(int id)
         {
-            if (id == null)
+            if (id == 0)
             {
                 return NotFound();
             }
@@ -110,7 +110,7 @@ namespace Alura.ByteBank.WebApp.Controllers
         // GET: UsuarioApps/Delete/5
         public ActionResult Delete(int id)
         {
-            if (id == null)
+            if (id == 0)
             {
                 return NotFound();
             }
