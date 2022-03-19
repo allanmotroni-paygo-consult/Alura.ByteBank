@@ -16,7 +16,7 @@ namespace Alura.ByteBank.Dados.Contexto
          //string stringconexao = "server=localhost;" +
          //                       "DataBase=bytebankdb;Uid=root;Pwd=root";
 
-         string stringconexao = "Server=bytebankmysql.mysql.database.azure.com; Port=3306; Database={your_database}; Uid=allanmotroni@bytebankmysql; Pwd=Senha@123; SslMode=Preferred;";
+         string stringconexao = "Server=bytebankmysql.mysql.database.azure.com; Port=3306; Database=bytebankdb; Uid=allanmotroni@bytebankmysql; Pwd=Senha@123; SslMode=Preferred;";
 
          optionsBuilder.UseMySql(stringconexao, 
                                     ServerVersion.AutoDetect(stringconexao));
